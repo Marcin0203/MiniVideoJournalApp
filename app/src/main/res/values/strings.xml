@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mini Video Journal App</string>
+
+    <!--  Dialogs  -->
+    <string name="dialog_title">Permission required</string>
+    <string name="dialog_ok_button">OK</string>
+    <string name="dialog_close_button">Close</string>
+    <string name="dialog_settings_button">Settings</string>
+
+    <string name="rationale_dialog_message">Granting permission to camera is required to record a video.\nIf you want to do it then click \"OK\" and then grant permission.</string>
+    <string name="denied_dialog_message">You have refused to grand permission to camera and you cannot use thi functionality.\nIf you want to grant it, go to the application settings.</string>
+
+    <!--  VideoListContent  -->
+    <string name="empty_video_list_message">No videos. Click \'+\' to add the first video.</string>
+</resources>

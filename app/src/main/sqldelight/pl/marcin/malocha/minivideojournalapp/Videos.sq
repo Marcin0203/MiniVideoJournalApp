@@ -1,0 +1,18 @@
+CREATE TABLE Videos (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    path TEXT NOT NULL,
+    description TEXT,
+    createdAt INTEGER NOT NULL
+);
+
+insert:
+INSERT INTO Videos (path, description, createdAt)
+VALUES (?, ?, ?);
+
+selectAll:
+SELECT * FROM Videos
+ORDER BY createdAt DESC;
+
+deleteById:
+DELETE FROM Videos
+WHERE id = ?;
